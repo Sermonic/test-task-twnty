@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 import { styledButton } from "@/styles/mixins";
@@ -38,7 +39,7 @@ export const HamburgerMenu = styled.div`
   }
 `;
 
-export const NavLinks = styled.div<{ isOpen: boolean }>`
+export const NavLinks = styled(Link)<{ isOpen: boolean }>`
   ${styledButton};
 
   @media (max-width: 768px) {

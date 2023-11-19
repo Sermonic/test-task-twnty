@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Link from "next/link";
 
 import Switch from "@/components/Switch";
 
@@ -27,8 +26,8 @@ export default function Navbar({ toggleTheme, isDarkTheme }: INavbarProps) {
       <Navigation>
         {navbarLinks.map(({ id, route, label }: NavbarLink) => {
           return (
-            <NavLinks key={id} isOpen={isOpen}>
-              <Link href={route}>{label}</Link>
+            <NavLinks key={id} isOpen={isOpen} href={route}>
+              {label}
             </NavLinks>
           );
         })}
