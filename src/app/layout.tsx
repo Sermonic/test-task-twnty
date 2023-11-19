@@ -1,5 +1,7 @@
 "use client";
 
+/* eslint-disable camelcase */
+
 import { ReactNode, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { Open_Sans } from "next/font/google";
