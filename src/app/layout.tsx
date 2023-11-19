@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   };
 
   return (
-    <html>
+    <html lang="en">
       <body className={openSans.className}>
         <StyledComponentsRegistry>
           <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>

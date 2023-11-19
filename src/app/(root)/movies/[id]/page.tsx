@@ -35,7 +35,7 @@ export default function MovieDetail() {
     if (id) {
       fetchMovie(id as string);
     }
-  }, []);
+  }, [id]);
 
   if (isLoading) return <Loader />;
   if (error) return <ErrorScreen error={error} />;
