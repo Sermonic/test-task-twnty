@@ -1,4 +1,4 @@
-### https://test-task-twnty-mc8lk9tzk-sermonic.vercel.app
+### https://test-task-twnty.vercel.app
 
 ## Project Setup:
 
