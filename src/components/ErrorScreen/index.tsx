@@ -15,6 +15,7 @@ export default function ErrorScreen({ error }: IErrorProps) {
     <main>
       <h1>Something went wrong!</h1>
       <StyledLink href={"/"}>Go home</StyledLink>
+      <p>{error.message}</p>
     </main>
   );
 }

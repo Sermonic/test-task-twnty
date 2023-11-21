@@ -1,5 +1,46 @@
 ### https://test-task-twnty-mc8lk9tzk-sermonic.vercel.app
 
+## Project Setup:
+
+- Created using Next.js CLI, version 14.0.2.
+- Utilized React for the user interface, with React version ^18.
+- Incorporated ESLint and Prettier for maintaining code quality.
+
+## Type Safety and Styling:
+
+- Implemented TypeScript for robust type safety throughout the application.
+- Styled Components were used for styling, with additional ESLint configurations. Demonstrated usage in Styled Components for:
+   - Global Styles
+   - Theme
+   - Mixins
+
+## Navigation:
+
+- Developed a navigation bar utilizing Next.js client-side routing.
+- Included route groups for organized navigation.
+- Integrated a responsive hamburger menu for mobile views.
+- Implemented a theme toggle for enhanced user experience.
+
+## API Integration:
+
+- Integrated The Movie Database (TMDB) API for data retrieval.
+
+## Movies Page:
+
+- Implemented features on the Movies page:
+   - Added a button to fetch popular movies from the TMDB API.
+   - Incorporated a loader to indicate data loading.
+   - Enabled filtering movies by title.
+   - Implemented sorting options based on different criteria (date, rating, popularity).
+
+## Data Detail Page:
+
+- Created a data detail page that provides in-depth information when clicking on a specific data point.
+
+## Error Handling:
+
+- Effectively handled API errors and displayed them to users when necessary.
+
 ## Running the App Locally
 
 1. **Clone the repository**: First, you need to clone the repository to your local machine. You can do this by running the following command in your terminal:
